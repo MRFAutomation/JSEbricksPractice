@@ -41,3 +41,21 @@ console.log(`Addition of ${number1} + ${number2} = ${addition}`);
 console.log(`Subtraction of ${number1} - ${number2} = ${subtraction}`);
 console.log(`Multiplication of ${number1} * ${number2} = ${multiplication}`);
 console.log(`Division of ${number1} / ${number2} = ${division}`);
+
+console.log("-------------------------- Task1 ended here --------------------------")
+
+/*
+Task#2
+There is another way to declare a variable in JavaScript and that is const. Your task is to
+Declare a variable as const.
+Initialize it with a number type value
+Perform console.log for the variable
+Assign a new value to the variable
+Perform console.log for the variable
+Write down the results in "Readme.md" file
+*/
+
+const constNumber = 100;
+console.log("Value of constNumber = " + constNumber);
+// constNumber = 200; - This statement will throw TypeError: Assignment to constant variable.
+// console.log("Value of after re-assignment constNumber = " + constNumber);
