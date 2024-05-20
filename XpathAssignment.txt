@@ -1,0 +1,50 @@
+Here is your Automation assignment on "XPaths".
+You can use following website to create XPaths
+- https://ecommerce-playground.lambdatest.io/
+- https://selectorshub.com/xpath-practice-page/
+
+Exercise Details:
+Section#1 - Absolute XPath:
+Develop a XPath for any element using the absolute XPath technique
+---------------------------------------------------------------------------------------------------
+
+/* Solution */
+Site: https://ecommerce-playground.lambdatest.io/
+Abs xpath of search field: /html[1]/body[1]/div[1]/div[5]/header[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+Rel xpath of search field: //div[@id='entry_217822']//input[@placeholder='Search For Products']
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Section#2 - Relative XPaths:
+
+/* Solution */
+Wildcard Operator: 
+Develop a XPath using wildcard asterisk * - //*[@id='entry_217822']//*[@placeholder='Search For Products']
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Functions:
+Develop a XPath using text() function - //button[text()="Search"]
+Develop a XPath using contains() function including text() in it as parameter - //button[contains(text(),"Search")]
+Develop a XPath using contains() function including any attribute in it as parameter - //div[@id='entry_217822']//button[contains(@type, 'submit')]
+Develop a XPath using normalize-space() function - //span[normalize-space()='Mega Menu']
+---------------------------------------------------------------------------------------------------------------------------------
+
+Axes:
+Develop a XPath using descendant axes
+Develop a XPath using ancestor axes - //input[@id="pass"]//ancestor::div[@class="page-content"]
+Develop a XPath using following axes - //input[@id="pass"]//following::input[@placeholder="Enter your company"][1]
+Develop a XPath using preceding axes - //input[@id="pass"]//preceding::input[@id="shub10"]
+Develop a XPath using following-sibling axes - //input[@id="pass"]//following-sibling::input
+Develop a XPath using preceding-sibling axes - //input[@id="pass"]//preceding-sibling::input
+------------------------------------------------------------------------------------------------------------------------------------
+
+Combination of Axes
+Develop a XPath using combination of parent and following-sibling axes - //input[@id="pass"]//parent::div//following-sibling::input[@id='inp_val']
+Develop a XPath using combination of ancestor and following axes - //input[@id="pass"]//ancestor::div[@data-id="459c920"]//following::input[@id="shub10"]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Operators:
+Develop a XPath using AND operator - XPath - //a[normalize-space()='Garry.White' and @href="https://bit.ly/shub_training_udemy"]
+Develop a XPath using OR operator - //a[normalize-space()='Garry.White' or @href="https://bit.ly/shub_training_udemy"]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Index:
+Develop a XPath using index - //input[@class="selectors-input jsSelector"][1]
+--------------------------------------------------------------------------------------------------------------
