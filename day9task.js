@@ -16,6 +16,9 @@ let mid = 0;
 
 if (arrLength % 2 == 1) {
     mid = (arrLength - 1) / 2;
+    console.log(arr[mid]);
+} else {
+    console.log("Can't find the middle value");
 }
 
-console.log(arr[mid]);
+
