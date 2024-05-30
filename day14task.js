@@ -21,10 +21,10 @@ function findOnesCount() {
         if (str[i].includes('1')) {
             console.log(`${str[i]} found at index ${i}`);
             oneCount++;
-        } // if
-    } // for
+        }
+    }
 
     console.log(`Total number of One's in string [${str}] are '${oneCount}'`);
-} // findOnesCount
+}
 
 findOnesCount();
