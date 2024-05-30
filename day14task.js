@@ -15,16 +15,15 @@ countOnes("10111000111")
 
 function findOnesCount() {
     let str = "10111000111";
-    // console.log(str)
-    // console.log(str.length)
     let oneCount = 0;
+
     for (let i = 0; i < str.length; i++) {
         if (str[i].includes('1')) {
             console.log(`${str[i]} found at index ${i}`);
             oneCount++;
         } // if
-
     } // for
+
     console.log(`Total number of One's in string [${str}] are '${oneCount}'`);
 } // findOnesCount
 
