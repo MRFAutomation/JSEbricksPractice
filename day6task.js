@@ -8,7 +8,7 @@ If array of length is greater than 10 then print "Array is greater 10"
 */
 
 let arr1 = [];
-let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 0];
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let arr3 = [1, 21, 56, 65, 8, 98, 89, 7, 87, 78, 4, 46, 64, 54, 45, 10];
 
 let arrLength = arr3.length;
@@ -17,7 +17,7 @@ if (arrLength == 0) {
     console.log("Array is empty");
 }
 else if (arrLength > 0 && arrLength < 11) {
-    console.log("Array length is 0 to 10");
+    console.log("Array length is 1 to 10");
 } else {
     console.log("Array length is above 10");
 }
