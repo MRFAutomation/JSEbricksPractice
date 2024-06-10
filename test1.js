@@ -2,7 +2,7 @@ let arr = [55, 1, 25, 100, 60, 40];
 
 function minimumNumber(ar) {
     let min = ar[0];
-    for (let i = 0; i < ar.length; i++) {
+    for (let i = 1; i < ar.length; i++) {
         if (ar[i] < min) {
             min = ar[i];
         }
@@ -12,7 +12,7 @@ function minimumNumber(ar) {
 
 function maximumNumber(ar) {
     let max = ar[0];
-    for (let i = 0; i < ar.length; i++) {
+    for (let i = 1; i < ar.length; i++) {
         if (ar[i] > max) {
             max = ar[i];
         }
@@ -25,7 +25,7 @@ function arrayLength(ar) {
 }
 
 function checkEmpty(ar) {
-    if (ar.length == 0) {
+    if (ar.length === 0) {
         return true;
     }
     else {
@@ -33,7 +33,7 @@ function checkEmpty(ar) {
     }
 }
 
-console.log(`Array [${arr}] length is: ${arrayLength(arr)}`);
-console.log(`Maximum number in array [${arr}] is: ${(maximumNumber(arr))}`);
-console.log(`Minimum number in array [${arr}] is: ${minimumNumber(arr)}`);
 console.log(`Is array [${arr}] empty: ${checkEmpty(arr)}`);
+console.log(`Array [${arr}] length is: ${arrayLength(arr)}`);
+console.log(`Minimum number in array [${arr}] is: ${minimumNumber(arr)}`);
+console.log(`Maximum number in array [${arr}] is: ${(maximumNumber(arr))}`);
