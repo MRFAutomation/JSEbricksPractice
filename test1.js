@@ -1,3 +1,4 @@
+
 let arr = [55, 1, 25, 100, 60, 40];
 
 function minimumNumber(ar) {
@@ -32,6 +33,10 @@ function checkEmpty(ar) {
         return false;
     }
 }
+
+function fakerTest() {
+    console.log(faker.git.commitMessage());
+} fakerTest();
 
 console.log(`Is array [${arr}] empty: ${checkEmpty(arr)}`);
 console.log(`Array [${arr}] length is: ${arrayLength(arr)}`);
